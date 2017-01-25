@@ -103,12 +103,10 @@ class Auction
      */
     public function addBid(Bid $bid)
     {
-        if ($this->isValid($bid)) {
-            $this->bids[] = $bid;
-            return;
+        if (!$this->isValid($bid)) {
+            throw new \Exception('Bid is invalid');
         }
-
-        throw new \Exception('Bid is invalid');
+        $this->bids[] = $bid;
     }
 
     /**
