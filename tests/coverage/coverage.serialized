@@ -1,0 +1,39 @@
+<?php
+$coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
+$coverage->setData(array (
+  '/home/wendell_adriel/studies/phpunit_training/third_day/app/models/User.php' => 
+  array (
+    17 => 
+    array (
+      0 => 'UserTest::hasName',
+    ),
+    18 => 
+    array (
+      0 => 'UserTest::hasName',
+    ),
+    25 => 
+    array (
+      0 => 'UserTest::hasName',
+    ),
+    26 => NULL,
+  ),
+));
+$coverage->setTests(array (
+  'UNCOVERED_FILES_FROM_WHITELIST' => 
+  array (
+    'size' => 'unknown',
+    'status' => NULL,
+  ),
+  'UserTest::hasName' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+));
+
+$filter = $coverage->filter();
+$filter->setWhitelistedFiles(array (
+  '/home/wendell_adriel/studies/phpunit_training/third_day/app/models/User.php' => true,
+));
+
+return $coverage;
