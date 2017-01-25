@@ -3,18 +3,26 @@ declare(strict_types=1);
 
 namespace Auction\Models;
 
-class User 
+use Auction\ValueObjects\Email;
+use Auction\ValueObjects\Name;
+
+class User
 {
-    /** @var string */
+    /** @var Name */
     private $name;
+
+    /** @var Email */
+    private $email;
 
     /**
      * User constructor.
-     * @param string $name
+     * @param Name $name
+     * @param Email $email
      */
-    public function __construct(string $name)
+    public function __construct(Name $name, Email $email)
     {
         $this->name = $name;
+        $this->email = $email;
     }
 
     /**
@@ -22,6 +30,26 @@ class User
      */
     public function getName(): string
     {
-        return $this->name;
+        return (string) $this->name;
+    }
+
+    /**
+     * @return string
+     */
+    public function getEmail(): string
+    {
+        return (string) $this->email;
+    }
+
+    /**
+     * @param array $existingEmails
+     * @return bool
+     */
+    public function isEmailUnique(array $existingEmails): bool
+    {
+        if(in_array($this->getEmail(), $existingEmails)) {
+            return false;
+        }
+        return true;
     }
 }

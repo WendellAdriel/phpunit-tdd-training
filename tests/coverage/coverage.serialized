@@ -3,19 +3,872 @@ $coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
 $coverage->setData(array (
   '/home/wendell_adriel/studies/phpunit_training/third_day/app/models/User.php' => 
   array (
-    17 => 
+    24 => 
     array (
-      0 => 'UserTest::hasName',
-    ),
-    18 => 
-    array (
-      0 => 'UserTest::hasName',
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+      11 => 'BidTest::hasUser',
+      12 => 'BidTest::hasPrice',
+      13 => 'UserTest::hasName',
+      14 => 'UserTest::hasEmail',
+      15 => 'UserTest::userHasUniqueEmail',
+      16 => 'UserTest::userHasNotUniqueEmail',
     ),
     25 => 
     array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+      11 => 'BidTest::hasUser',
+      12 => 'BidTest::hasPrice',
+      13 => 'UserTest::hasName',
+      14 => 'UserTest::hasEmail',
+      15 => 'UserTest::userHasUniqueEmail',
+      16 => 'UserTest::userHasNotUniqueEmail',
+    ),
+    26 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+      11 => 'BidTest::hasUser',
+      12 => 'BidTest::hasPrice',
+      13 => 'UserTest::hasName',
+      14 => 'UserTest::hasEmail',
+      15 => 'UserTest::userHasUniqueEmail',
+      16 => 'UserTest::userHasNotUniqueEmail',
+    ),
+    33 => 
+    array (
       0 => 'UserTest::hasName',
     ),
-    26 => NULL,
+    34 => NULL,
+    41 => 
+    array (
+      0 => 'UserTest::hasEmail',
+      1 => 'UserTest::userHasUniqueEmail',
+      2 => 'UserTest::userHasNotUniqueEmail',
+    ),
+    42 => NULL,
+    50 => 
+    array (
+      0 => 'UserTest::userHasUniqueEmail',
+      1 => 'UserTest::userHasNotUniqueEmail',
+    ),
+    51 => 
+    array (
+      0 => 'UserTest::userHasNotUniqueEmail',
+    ),
+    53 => 
+    array (
+      0 => 'UserTest::userHasUniqueEmail',
+    ),
+    54 => NULL,
+  ),
+  '/home/wendell_adriel/studies/phpunit_training/third_day/app/models/Bid.php' => 
+  array (
+    29 => 
+    array (
+      0 => 'AuctionTest::addValidBid',
+      1 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      2 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      3 => 'AuctionTest::addTwoValidBids',
+      4 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+      5 => 'BidTest::hasUser',
+      6 => 'BidTest::hasPrice',
+    ),
+    30 => 
+    array (
+      0 => 'AuctionTest::addValidBid',
+      1 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      2 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      3 => 'AuctionTest::addTwoValidBids',
+      4 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+      5 => 'BidTest::hasUser',
+      6 => 'BidTest::hasPrice',
+    ),
+    31 => 
+    array (
+      0 => 'AuctionTest::addValidBid',
+      1 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      2 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      3 => 'AuctionTest::addTwoValidBids',
+      4 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+      5 => 'BidTest::hasUser',
+      6 => 'BidTest::hasPrice',
+    ),
+    38 => 
+    array (
+      0 => 'AuctionTest::addValidBid',
+      1 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      2 => 'AuctionTest::addTwoValidBids',
+      3 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+      4 => 'BidTest::hasUser',
+    ),
+    39 => NULL,
+    46 => 
+    array (
+      0 => 'AuctionTest::addValidBid',
+      1 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      2 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      3 => 'AuctionTest::addTwoValidBids',
+      4 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+    ),
+    47 => NULL,
+    54 => 
+    array (
+      0 => 'BidTest::hasPrice',
+    ),
+    55 => NULL,
+  ),
+  '/home/wendell_adriel/studies/phpunit_training/third_day/app/value_objects/Description.php' => 
+  array (
+    19 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+      11 => 'DescriptionTest::hasValidDescription',
+      12 => 'DescriptionTest::hasInvalidDescription',
+    ),
+    20 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+      11 => 'DescriptionTest::hasValidDescription',
+    ),
+    21 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+      11 => 'DescriptionTest::hasValidDescription',
+    ),
+    23 => 
+    array (
+      0 => 'DescriptionTest::hasInvalidDescription',
+    ),
+    24 => NULL,
+    32 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+      11 => 'DescriptionTest::hasValidDescription',
+      12 => 'DescriptionTest::hasInvalidDescription',
+    ),
+    33 => 
+    array (
+      0 => 'DescriptionTest::hasInvalidDescription',
+    ),
+    35 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+      11 => 'DescriptionTest::hasValidDescription',
+    ),
+    36 => NULL,
+    43 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'DescriptionTest::hasValidDescription',
+    ),
+    44 => NULL,
+  ),
+  '/home/wendell_adriel/studies/phpunit_training/third_day/app/value_objects/Name.php' => 
+  array (
+    19 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+      11 => 'BidTest::hasUser',
+      12 => 'BidTest::hasPrice',
+      13 => 'UserTest::hasName',
+      14 => 'UserTest::hasEmail',
+      15 => 'UserTest::userHasUniqueEmail',
+      16 => 'UserTest::userHasNotUniqueEmail',
+      17 => 'NameTest::hasValidName',
+      18 => 'NameTest::hasInvalidName',
+    ),
+    20 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+      11 => 'BidTest::hasUser',
+      12 => 'BidTest::hasPrice',
+      13 => 'UserTest::hasName',
+      14 => 'UserTest::hasEmail',
+      15 => 'UserTest::userHasUniqueEmail',
+      16 => 'UserTest::userHasNotUniqueEmail',
+      17 => 'NameTest::hasValidName',
+    ),
+    21 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+      11 => 'BidTest::hasUser',
+      12 => 'BidTest::hasPrice',
+      13 => 'UserTest::hasName',
+      14 => 'UserTest::hasEmail',
+      15 => 'UserTest::userHasUniqueEmail',
+      16 => 'UserTest::userHasNotUniqueEmail',
+      17 => 'NameTest::hasValidName',
+    ),
+    23 => 
+    array (
+      0 => 'NameTest::hasInvalidName',
+    ),
+    24 => NULL,
+    32 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+      11 => 'BidTest::hasUser',
+      12 => 'BidTest::hasPrice',
+      13 => 'UserTest::hasName',
+      14 => 'UserTest::hasEmail',
+      15 => 'UserTest::userHasUniqueEmail',
+      16 => 'UserTest::userHasNotUniqueEmail',
+      17 => 'NameTest::hasValidName',
+      18 => 'NameTest::hasInvalidName',
+    ),
+    33 => 
+    array (
+      0 => 'NameTest::hasInvalidName',
+    ),
+    36 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+      11 => 'BidTest::hasUser',
+      12 => 'BidTest::hasPrice',
+      13 => 'UserTest::hasName',
+      14 => 'UserTest::hasEmail',
+      15 => 'UserTest::userHasUniqueEmail',
+      16 => 'UserTest::userHasNotUniqueEmail',
+      17 => 'NameTest::hasValidName',
+    ),
+    37 => NULL,
+    44 => 
+    array (
+      0 => 'UserTest::hasName',
+      1 => 'NameTest::hasValidName',
+    ),
+    45 => NULL,
+  ),
+  '/home/wendell_adriel/studies/phpunit_training/third_day/app/models/Auction.php' => 
+  array (
+    41 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+    ),
+    42 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+    ),
+    43 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+    ),
+    44 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+    ),
+    45 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+    ),
+    46 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+    ),
+    47 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+    ),
+    54 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+    ),
+    55 => NULL,
+    62 => 
+    array (
+      0 => 'AuctionTest::hasStartDate',
+    ),
+    63 => NULL,
+    70 => 
+    array (
+      0 => 'AuctionTest::hasEndDate',
+    ),
+    71 => NULL,
+    78 => 
+    array (
+      0 => 'AuctionTest::hasSeller',
+      1 => 'AuctionTest::addValidBid',
+      2 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      3 => 'AuctionTest::addTwoValidBids',
+      4 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+    ),
+    79 => NULL,
+    86 => 
+    array (
+      0 => 'AuctionTest::hasStartingPrice',
+      1 => 'AuctionTest::addValidBid',
+      2 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      3 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      4 => 'AuctionTest::addTwoValidBids',
+      5 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+    ),
+    87 => NULL,
+    94 => 
+    array (
+      0 => 'AuctionTest::isBidEmptyOnStart',
+      1 => 'AuctionTest::addValidBid',
+      2 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      3 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      4 => 'AuctionTest::addTwoValidBids',
+      5 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+    ),
+    95 => NULL,
+    106 => 
+    array (
+      0 => 'AuctionTest::addValidBid',
+      1 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      2 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      3 => 'AuctionTest::addTwoValidBids',
+      4 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+    ),
+    107 => 
+    array (
+      0 => 'AuctionTest::addValidBid',
+      1 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      2 => 'AuctionTest::addTwoValidBids',
+    ),
+    108 => 
+    array (
+      0 => 'AuctionTest::addValidBid',
+      1 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      2 => 'AuctionTest::addTwoValidBids',
+    ),
+    111 => 
+    array (
+      0 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      1 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      2 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+    ),
+    112 => NULL,
+    123 => 
+    array (
+      0 => 'AuctionTest::addValidBid',
+      1 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      2 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      3 => 'AuctionTest::addTwoValidBids',
+      4 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+    ),
+    124 => 
+    array (
+      0 => 'AuctionTest::addValidBid',
+      1 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      2 => 'AuctionTest::addTwoValidBids',
+      3 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+    ),
+    125 => 
+    array (
+      0 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      1 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      2 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+    ),
+    126 => 
+    array (
+      0 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      1 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      2 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+    ),
+    129 => 
+    array (
+      0 => 'AuctionTest::addValidBid',
+      1 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      2 => 'AuctionTest::addTwoValidBids',
+    ),
+    130 => NULL,
+    140 => 
+    array (
+      0 => 'AuctionTest::addValidBid',
+      1 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      2 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      3 => 'AuctionTest::addTwoValidBids',
+      4 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+    ),
+    141 => 
+    array (
+      0 => 'AuctionTest::addValidBid',
+      1 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      2 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      3 => 'AuctionTest::addTwoValidBids',
+      4 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+    ),
+    142 => 
+    array (
+      0 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+    ),
+    144 => 
+    array (
+      0 => 'AuctionTest::addValidBid',
+      1 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      2 => 'AuctionTest::addTwoValidBids',
+      3 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+    ),
+    147 => 
+    array (
+      0 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      1 => 'AuctionTest::addTwoValidBids',
+    ),
+    148 => 
+    array (
+      0 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+    ),
+    150 => 
+    array (
+      0 => 'AuctionTest::addTwoValidBids',
+    ),
+    160 => 
+    array (
+      0 => 'AuctionTest::addValidBid',
+      1 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      2 => 'AuctionTest::addTwoValidBids',
+      3 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+    ),
+    161 => 
+    array (
+      0 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+    ),
+    163 => 
+    array (
+      0 => 'AuctionTest::addValidBid',
+      1 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      2 => 'AuctionTest::addTwoValidBids',
+    ),
+  ),
+  '/home/wendell_adriel/studies/phpunit_training/third_day/app/value_objects/Email.php' => 
+  array (
+    16 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+      11 => 'BidTest::hasUser',
+      12 => 'BidTest::hasPrice',
+      13 => 'UserTest::hasName',
+      14 => 'UserTest::hasEmail',
+      15 => 'UserTest::userHasUniqueEmail',
+      16 => 'UserTest::userHasNotUniqueEmail',
+      17 => 'EmailTest::hasValidEmail',
+      18 => 'EmailTest::hasInvalidEmail',
+    ),
+    17 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+      11 => 'BidTest::hasUser',
+      12 => 'BidTest::hasPrice',
+      13 => 'UserTest::hasName',
+      14 => 'UserTest::hasEmail',
+      15 => 'UserTest::userHasUniqueEmail',
+      16 => 'UserTest::userHasNotUniqueEmail',
+      17 => 'EmailTest::hasValidEmail',
+    ),
+    18 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+      11 => 'BidTest::hasUser',
+      12 => 'BidTest::hasPrice',
+      13 => 'UserTest::hasName',
+      14 => 'UserTest::hasEmail',
+      15 => 'UserTest::userHasUniqueEmail',
+      16 => 'UserTest::userHasNotUniqueEmail',
+      17 => 'EmailTest::hasValidEmail',
+    ),
+    20 => 
+    array (
+      0 => 'EmailTest::hasInvalidEmail',
+    ),
+    21 => NULL,
+    29 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+      11 => 'BidTest::hasUser',
+      12 => 'BidTest::hasPrice',
+      13 => 'UserTest::hasName',
+      14 => 'UserTest::hasEmail',
+      15 => 'UserTest::userHasUniqueEmail',
+      16 => 'UserTest::userHasNotUniqueEmail',
+      17 => 'EmailTest::hasValidEmail',
+      18 => 'EmailTest::hasInvalidEmail',
+    ),
+    30 => 
+    array (
+      0 => 'EmailTest::hasInvalidEmail',
+    ),
+    32 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+      11 => 'BidTest::hasUser',
+      12 => 'BidTest::hasPrice',
+      13 => 'UserTest::hasName',
+      14 => 'UserTest::hasEmail',
+      15 => 'UserTest::userHasUniqueEmail',
+      16 => 'UserTest::userHasNotUniqueEmail',
+      17 => 'EmailTest::hasValidEmail',
+    ),
+    33 => NULL,
+    40 => 
+    array (
+      0 => 'UserTest::hasEmail',
+      1 => 'UserTest::userHasUniqueEmail',
+      2 => 'UserTest::userHasNotUniqueEmail',
+      3 => 'EmailTest::hasValidEmail',
+    ),
+    41 => NULL,
+  ),
+  '/home/wendell_adriel/studies/phpunit_training/third_day/app/value_objects/Price.php' => 
+  array (
+    17 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+      11 => 'BidTest::hasUser',
+      12 => 'BidTest::hasPrice',
+      13 => 'PriceTest::hasValidStartingPrice',
+      14 => 'PriceTest::hasInvalidStartingPrice',
+    ),
+    18 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+      11 => 'BidTest::hasUser',
+      12 => 'BidTest::hasPrice',
+      13 => 'PriceTest::hasValidStartingPrice',
+    ),
+    19 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+      11 => 'BidTest::hasUser',
+      12 => 'BidTest::hasPrice',
+      13 => 'PriceTest::hasValidStartingPrice',
+    ),
+    21 => 
+    array (
+      0 => 'PriceTest::hasInvalidStartingPrice',
+    ),
+    22 => NULL,
+    30 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+      11 => 'BidTest::hasUser',
+      12 => 'BidTest::hasPrice',
+      13 => 'PriceTest::hasValidStartingPrice',
+      14 => 'PriceTest::hasInvalidStartingPrice',
+    ),
+    31 => 
+    array (
+      0 => 'PriceTest::hasInvalidStartingPrice',
+    ),
+    33 => 
+    array (
+      0 => 'AuctionTest::hasDescription',
+      1 => 'AuctionTest::hasStartDate',
+      2 => 'AuctionTest::hasEndDate',
+      3 => 'AuctionTest::hasStartingPrice',
+      4 => 'AuctionTest::hasSeller',
+      5 => 'AuctionTest::isBidEmptyOnStart',
+      6 => 'AuctionTest::addValidBid',
+      7 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      8 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      9 => 'AuctionTest::addTwoValidBids',
+      10 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+      11 => 'BidTest::hasUser',
+      12 => 'BidTest::hasPrice',
+      13 => 'PriceTest::hasValidStartingPrice',
+    ),
+    34 => NULL,
+    41 => 
+    array (
+      0 => 'AuctionTest::hasStartingPrice',
+      1 => 'AuctionTest::addValidBid',
+      2 => 'AuctionTest::throwsExceptionOnInvalidFirstBidPrice',
+      3 => 'AuctionTest::throwsExceptionOnLowerBidPrice',
+      4 => 'AuctionTest::addTwoValidBids',
+      5 => 'AuctionTest::throwsExceptionOnBidFromSeller',
+      6 => 'PriceTest::hasValidStartingPrice',
+    ),
+    42 => NULL,
   ),
 ));
 $coverage->setTests(array (
@@ -24,7 +877,127 @@ $coverage->setTests(array (
     'size' => 'unknown',
     'status' => NULL,
   ),
+  'AuctionTest::hasDescription' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'AuctionTest::hasStartDate' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'AuctionTest::hasEndDate' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'AuctionTest::hasStartingPrice' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'AuctionTest::hasSeller' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'AuctionTest::isBidEmptyOnStart' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'AuctionTest::addValidBid' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'AuctionTest::throwsExceptionOnInvalidFirstBidPrice' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'AuctionTest::throwsExceptionOnLowerBidPrice' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'AuctionTest::addTwoValidBids' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'AuctionTest::throwsExceptionOnBidFromSeller' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'BidTest::hasUser' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'BidTest::hasPrice' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
   'UserTest::hasName' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'UserTest::hasEmail' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'UserTest::userHasUniqueEmail' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'UserTest::userHasNotUniqueEmail' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'DescriptionTest::hasValidDescription' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'DescriptionTest::hasInvalidDescription' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'EmailTest::hasValidEmail' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'EmailTest::hasInvalidEmail' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'NameTest::hasValidName' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'NameTest::hasInvalidName' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'PriceTest::hasValidStartingPrice' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'PriceTest::hasInvalidStartingPrice' => 
   array (
     'size' => 'unknown',
     'status' => 0,
@@ -33,7 +1006,13 @@ $coverage->setTests(array (
 
 $filter = $coverage->filter();
 $filter->setWhitelistedFiles(array (
+  '/home/wendell_adriel/studies/phpunit_training/third_day/app/models/Auction.php' => true,
+  '/home/wendell_adriel/studies/phpunit_training/third_day/app/models/Bid.php' => true,
   '/home/wendell_adriel/studies/phpunit_training/third_day/app/models/User.php' => true,
+  '/home/wendell_adriel/studies/phpunit_training/third_day/app/value_objects/Description.php' => true,
+  '/home/wendell_adriel/studies/phpunit_training/third_day/app/value_objects/Email.php' => true,
+  '/home/wendell_adriel/studies/phpunit_training/third_day/app/value_objects/Name.php' => true,
+  '/home/wendell_adriel/studies/phpunit_training/third_day/app/value_objects/Price.php' => true,
 ));
 
 return $coverage;
